@@ -1,0 +1,11 @@
+mc_event:
+    resource: "@MCEventBundle/Resources/config/routing.yml"
+    prefix:   /
+
+sp_platform:
+    resource: "@SPPlatformBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
